@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#urlap {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#szamit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#szamit:hover {
+    background-color: #45a049;
+}
+
+#kerulet {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.result span {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.error {
+    color: #f44336;
+    font-weight: bold;
+}
