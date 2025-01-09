@@ -17,8 +17,24 @@
             </fieldset>
         </form>
         <div id="kerulet"></div>
+        
     </div>
-    
+    <br><br>
+
+    <div id="masodik-urlap">
+        <form name="ellenorzes">
+            <fieldset>
+                <legend>6 jegyű szám ellenőrzése</legend>
+                <label for="szam">6 jegyű szám:</label>
+                <input type="text" name="szam" id="szam" maxlength="6" pattern="\d{6}" required><br>
+                <input type="button" id="ellenorzes" value="Ellenőrzés">
+            </fieldset>
+        </form>
+        <div id="uzenet"></div>
+    </div>
+
     <script src="szamit.js"></script>
+    <script src="asd.js"></script>
+    
 </body>
 </html>
